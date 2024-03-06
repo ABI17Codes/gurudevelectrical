@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#colstartimg {
+    display: flex;
+    align-items: center;
+
+}
+
+#colstartimg1 {
+    width: 8rem;
+    margin: 1rem;
+}
+
+#colstartimg2 {
+    width: 8rem;
+    margin: 1rem;
+}
+
+#colstartimg3 {
+    width: 8rem;
+    margin: 1rem;
+}
+
+
+#colcenimg {
+    width: 25rem;
+}
+
+#hovercard {
+    background-color: #f9f9f9;
+    /* width: 25rem; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 20px;
+    transition: all .3s ease-in-out;
+}
+
+#hovercard:hover {
+    box-shadow: 0 0 20px #0003;
+    transform: scale(1.05);
+}
+
+#brandspace {
+    margin: 20px;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+
+#brandspace:hover {
+    box-shadow: 0 0 20px #0003;
+    transform: scale(1.05);
+}
+
+#btn-watts {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 15px;
+    transition: all .3s ease-in-out;
+}
+
+#btn-watts {
+    background-color: #ddd;
+}
+
+
+
+/* card */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-xs-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.custom-card {
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-bottom: 20px;
+    background-color: #fff;
+    opacity: .8;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img1 {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-text1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+#form-careers {
+    width: 60%;
+}
+
+@media (max-width:575px) {
+    #form-careers {
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .card-container .col-xs-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width:992px) {
+    .navbar-nav {
+        gap: 3rem !important;
+    }
+}
